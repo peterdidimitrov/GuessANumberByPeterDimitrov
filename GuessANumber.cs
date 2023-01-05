@@ -6,13 +6,13 @@
     {
         static void Main(string[] args)
         {
-            //Initializing "random" to shuffle computer's choice
+            //Initialize "random" to shuffle computer's choice
             Random ramdomNumber = new Random();
             int endNumber = 101;
             int counterWin = 0;
             int computerNumber = ramdomNumber.Next(1, endNumber + counterWin * 100);
 
-            //Initializing "level" to increase later the difficulty
+            //Initialize "level" to increase later the difficulty
             int level = 1;
 
             //Initializing the start count of tries
